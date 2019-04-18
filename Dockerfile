@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-ENV HUGO_VERSION=0.55.1
+ENV HUGO_VERSION=0.55.2
 
 RUN apt-get update && apt-get install -y git lftp ssh
 
